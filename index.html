@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>My Resume</title>
+  </head>
+  <body>
+    <div class="flex justify-center mt-4">
+      <div class="border border-black w-2/3 flex"> <!-- Adjusted width to w-2/3 -->
+        <!-- Outer container with border -->
+        <div class="left-half flex flex-col w-1/2 p-4">
+          <!-- Left half -->
+          <div
+            class="upper-half bg-blue-400 flex flex-col justify-center items-center h-1/3"
+          >
+            <!-- Upper half with blue background -->
+            <div
+              class="h-32 w-32 bg-yellow-200 p-2 border-4 rounded-full flex justify-center items-center"
+            >
+              <img
+                src="assets/mynewImage.jpg"
+                alt="profile picture"
+                class="h-full w-full rounded-full object-cover"
+              />
+            </div>
+
+            <p class="p mb-2"><b>Rahul Sharma</b></p>
+
+            <div class="flex items-center space-x-4 mb-2">
+              <!-- Flex container for LinkedIn and GitHub -->
+              <div class="flex items-center">
+                <!-- LinkedIn -->
+                <a
+                  href="https://www.linkedin.com/in/rahul-sharma-453599254"
+                  target="_main"
+                >
+                  <img
+                    src="assets/linkedin.svg"
+                    alt="linkedin"
+                    class="h-5 w-5 mr-2"
+                  />
+                </a>
+                <span>linkedin</span>
+              </div>
+
+              <div class="flex items-center">
+                <!-- GitHub -->
+                <a href="#" target="_main">
+                  <img
+                    src="assets/github.svg"
+                    alt="github"
+                    class="h-5 w-5 mr-2"
+                  />
+                </a>
+                <span>github</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="lower-half flex flex-col bg-black w-full flex-grow text-white"
+          >
+            <!-- Lower half with black background -->
+            <div class="Contact flex flex-col text-sm text-white p-4">
+              <p class="text-white text-2xl font-bold mb-2">Contact</p>
+              <p>Phone: +91 9473756472</p>
+              <p>Email: rahsharma2004@gmail.com</p>
+            </div>
+
+            <div class="skill flex-col text-base font-bold text-white p-4">
+              <p class="text-2xl font-bold mb-2">Skills</p>
+              <p>React</p>
+              <progress class="skill-progress" max="100" value="80"></progress>
+              <p>Javascript</p>
+              <progress class="skill-progress" max="100" value="95"></progress>
+              <p>Node js</p>
+              <progress class="skill-progress" max="100" value="95"></progress>
+              <p>Express</p>
+              <progress class="skill-progress" max="100" value="88"></progress>
+              <p>MYSQL</p>
+              <progress class="skill-progress" max="100" value="75"></progress>
+              <p>MONGODB</p>
+              <progress class="skill-progress" max="100" value="80"></progress>
+              <p>Python</p>
+              <progress class="skill-progress" max="100" value="90"></progress>
+              <p>DSA</p>
+              <progress class="skill-progress" max="100" value="70"></progress>
+            </div>
+
+            <div class="Contact flex flex-col text-white p-4">
+              <p class="text-white text-2xl flex items-center font-bold mb-2">
+                Certificates
+                <img src="assets/award.svg" alt="Award" class="ml-2" />
+              </p>
+              <div class="flex justify-center items-center flex-col">
+                <a href="#" target="_main"><b>Web Development</b></a>
+                <a href="#" target="_main"><b>AIML and Data Science</b></a>
+                <a href="#" target="_main"><b>DSA</b></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-half flex flex-col font-bold bg-offwhite w-1/2 p-4">
+          <!-- Right half -->
+          <div class="right-half flex flex-col font-thin text-sm text-blue p-4">
+            <section>
+              <h3 class="text-4xl text-blue-500 font-bold">Objective</h3>
+              <p class="font-thin">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente facilis aliquam inventore consectetur itaque sed
+                doloribus. Sequi inventore eius debitis quod deleniti incidunt
+                quibusdam nam harum tempora perspiciatis, architecto enim?
+                Similique delectus ipsa veniam, expedita doloremque commodi
+                soluta perferendis adipisci magnam nisi dicta, aspernatur
+                eveniet.
+              </p>
+            </section>
+            <section>
+              <h3 class="text-blue-500 text-4xl font-bold">
+                Experience - 2 years
+              </h3>
+              <p class="font-bold text-2xl flex items-center">
+                <img
+                  src="assets/arrow-right-circle-fill.svg"
+                  alt="Arrow"
+                  class="mr-2"
+                />
+                Role 1: Software Engineer From TCS to Deltoit
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
+                velit nemo quibusdam non unde ratione exercitationem, quae
+                sequi, eum, temporibus sit veniam vitae sunt a omnis voluptatem!
+                Fuga, culpa eaque! Ex earum corporis accusamus quod assumenda in
+                neque! Earum laudantium hi
+              </p>
+
+              <p class="font-bold text-2xl flex items-center">
+                <img
+                  src="assets/arrow-right-circle-fill.svg"
+                  alt="Arrow"
+                  class="mr-2"
+                />
+                Role 2: Web Developer From Deltoit to Amazon
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
+                velit nemo quibusdam non unde ratione exercitationem, quae
+                sequi, eum, temporibus sit veniam vitae sunt a omnis voluptatem!
+                Fuga, culpa eaque! Ex earum corporis accusamus quod assumenda in
+                neque! Earum laudantium hi
+              </p>
+            </section>
+            <section>
+              <h3 class="text-blue-500 text-4xl font-bold">Project</h3>
+              <p class="font-bold text-2xl flex items-center">
+                <img
+                  src="assets/arrow-right-circle-fill.svg"
+                  alt="Arrow"
+                  class="mr-2"
+                />
+                Ecommerce-website
+              </p>
+              <p>
+                Project is based on Python full stack project. Tech stack used is
+                Django for backend and React for Frontend. I have also hosted
+                that project on AWS cloud service.
+              </p>
+
+              <p class="font-bold text-2xl flex items-center">
+                <img
+                  src="assets/arrow-right-circle-fill.svg"
+                  alt="Arrow"
+                  class="mr-2"
+                />
+                Expanse Manager
+              </p>
+              <p>
+                Project is based on MERN stack and it is a full stack project. I
+                have also hosted that project on AWS cloud service.
+              </p>
+            </section>
+
+            <section>
+              <h3 class="text-blue-500 text-4xl font-bold">Education Qualification</h3>
+              <p class="font-bold text-2xl flex items-center">
+                <img
+                  src="assets/arrow-right-circle-fill.svg"
+                  alt="Arrow"
+                  class="mr-2"
+                />
+                10th From MUMBAI - Matunga
+              </p>
+              <p class="flex items-center">
+                School: St. Micheal High School
+              </p>
+              <p class="font-bold text-2xl flex items-center">
+                <img
+                  src="assets/arrow-right-circle-fill.svg"
+                  alt="Arrow"
+                  class="mr-2"
+                />
+                12th From Mumbai - Bandra
+              </p>
+              <p class="flex items-center">
+                College: RD National College of Arts, Commerce and Science
+                <br /> Stream: Science
+              </p>
+              <p class="font-bold text-2xl flex items-center">
+                <img
+                  src="assets/arrow-right-circle-fill.svg"
+                  alt="Arrow"
+                  class="mr-2"
+                />
+                BTech From Mumbai-Thane
+              </p>
+              <p class="flex items-center">
+                College: AP Shah Institute of Engineering and Technology
+                <br /> Department: Information Technology
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
